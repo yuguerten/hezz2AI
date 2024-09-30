@@ -191,7 +191,9 @@ class Hezz2Game:
         # Draw message
         message_font = pygame.font.Font(None, 24)
         message_text = message_font.render(self.message, True, TEXT_COLOR)
-        message_rect = message_text.get_rect(center=(SCREEN_WIDTH // 2, 70))
+        message_rect = message_text.get_rect()
+        message_rect.right = SCREEN_WIDTH - 20
+        message_rect.top = 50
         screen.blit(message_text, message_rect)
         
         # Draw button
@@ -241,7 +243,7 @@ def main():
             print(f"{winner.name} wins!")
             running = False
     
-    pygame.quit()
+    #pygame.quit()
 
 if __name__ == "__main__":
     main()
