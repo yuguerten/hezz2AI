@@ -1,7 +1,7 @@
 # Hezz2 Game Rules
 
 ## Overview
-Hezz2 is a card game for two players, combining elements of strategy and luck. The game uses a Spanish deck and features special actions for certain cards.
+Hezz2 is a famous card game in Morocco for two players or more, combining elements of strategy and luck. The game uses a Spanish deck and features special actions for certain cards.
 
 ## Deck
 - The game uses a 48-card Spanish deck.
